@@ -1,0 +1,32 @@
+body {
+	background-color: #84B59F;
+}
+<div class="topnav">
+  <a href="index.html">Home </a>
+  <a href="Bowl.html" class="active">Bowl </a>
+  <a href="Plate.html">Plate </a>
+  <a href="Drink.html">Drink </a>
+</div>
+.topnav {
+   background-color: #1D1806;
+   overflow: hidden;
+}
+
+.topnav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.topnav a:hover {
+   background-color: #D62921;
+   color: black;
+}
+
+.topnav a.active {
+   background-color: #D62921;
+   color: white;
+}
