@@ -1,14 +1,9 @@
 body {
-	background-color: #84B59F;
+	background-color: #E7ECEF;
 }
-<div class="topnav">
-  <a href="index.html">Home </a>
-  <a href="Bowl.html" class="active">Bowl </a>
-  <a href="Plate.html">Plate </a>
-  <a href="Drink.html">Drink </a>
-</div>
+
 .topnav {
-   background-color: #1D1806;
+   background-color: #333333;
    overflow: hidden;
 }
 
@@ -22,11 +17,17 @@ body {
 }
 
 .topnav a:hover {
-   background-color: #D62921;
+   background-color: #DDDDDD;
    color: black;
 }
 
 .topnav a.active {
-   background-color: #D62921;
+   background-color: #780116;
    color: white;
 }
+<div class="topnav">
+  <a href="index.html">Home </a>
+  <a href="Bowl.html" class="active">Bowl </a>
+  <a href="Plate.html">Plate </a>
+  <a href="Drink.html">Drink </a>
+</div>
